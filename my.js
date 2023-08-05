@@ -24,11 +24,7 @@ class Rectangle {
 let rectangle = new Rectangle(100, 50);
 rectangle.drawOnCanvas();
 
-rectangle.width = 150; // thay đổi chiều dài và chiều rộng
-rectangle.height = 70;
-rectangle.drawOnCanvas();
-
 let area = rectangle.getArea();
 let perimeter = rectangle.getPerimeter();
-console.log("Diện tích của hình chữ nhật là: " + area);
-console.log("Chu vi của hình chữ nhật là: " + perimeter);
+document.getElementById("area").innerHTML="Diện tích của hình chữ nhật là: " + area;
+document.getElementById("perimeter").innerHTML="Chu vi của hình chữ nhật là: " + perimeter;
