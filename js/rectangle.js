@@ -21,10 +21,4 @@ class Rectangle {
     }
 }
 
-let rectangle = new Rectangle(100, 50);
-rectangle.drawOnCanvas();
 
-let area = rectangle.getArea();
-let perimeter = rectangle.getPerimeter();
-document.getElementById("area").innerHTML="Diện tích của hình chữ nhật là: " + area;
-document.getElementById("perimeter").innerHTML="Chu vi của hình chữ nhật là: " + perimeter;
